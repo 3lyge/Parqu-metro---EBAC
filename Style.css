@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap');
+
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'DM Sans', sans-serif;
+}
+.botoes{
+    display: flex; 
+    gap: 15px;
+    margin: 10px 15px 10px 15px;
+}
+.card {
+    background: linear-gradient(to bottom left, #93979c, #f8f9fa);
+    padding: 0px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border:1px solid #8E978D;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 20vh;
+    background:  #8E978D;
+}
+.card1 {
+    padding: 2rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border:1pX solid #8E978D;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient( rgbA(205, 242, 214, 0.8), rgba(151, 196, 173, 0.8)), url(background.png)
+}
+h1{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 15px;
+    color: #121212;
+}
+h2{
+    text-decoration: bold;
+    color: #ffffff;
+    padding-bottom: 5px; 
+}
+h3{
+   font-weight: bold;
+    color: #121212;
+    padding-bottom: 15px;
+}
+h5{
+   font-weight: bold;
+    color: #121212;
+    padding-bottom: 5px;
+}
+.basic{
+    border-radius: 8px;
+    border: 2px;
+    padding: 6px;
+    background: linear-gradient(to bottom right, #8E978D, #97C4AD);
+    width: 100px;
+}
+.medium{
+    border-radius: 8px;
+    border: 2px;
+    padding: 6px;
+    background: linear-gradient(to bottom right, #8E978D, #97C4AD);
+    width: 100px;
+}
+.full{
+    border-radius: 8px;
+    border: 2px;
+    padding: 6px;
+    background: linear-gradient(to bottom right, #8E978D, #97C4AD);
+    width: 100px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+input  {
+    border-radius: 8px;
+    height: 22px;
+    width: 100%;
+    border: #ffffff 3px;
+    background: linear-gradient(to left, #c5cbd1, #f8f9fa) ;
+    margin: 10px 0px 4px 0px;
+}
+.calcular{
+   width: 90px; 
+   height: 30px;
+   border-radius: 8px;
+   background: linear-gradient(to right, #8E978D, #97C4AD);
+   border: 1px;
+   font-weight: bold;
+   margin: 10px 0 0 0;
+}
+
+.basic:active{
+background: linear-gradient(to bottom right, #444944, #597265);
+}
+.medium:active{
+background: linear-gradient(to bottom right, #444944, #597265);
+}
+.full:active{
+background: linear-gradient(to bottom right, #444944, #597265);
+}
+.calcular:active{
+background: linear-gradient(to bottom right, #444944, #597265);
+}
