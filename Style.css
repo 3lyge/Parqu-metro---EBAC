@@ -52,7 +52,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient( rgbA(205, 242, 214, 0.8), rgba(151, 196, 173, 0.8)), url(background.png)
+    background-image: linear-gradient( rgba(151, 229, 189, 0.8), rgba(101, 151, 125, 0.8)), url(background.png)
 }
 h1{
     padding-bottom: 15px;
@@ -79,21 +79,21 @@ h5{
     border-radius: 8px;
     border: 2px;
     padding: 6px;
-    background: linear-gradient(to bottom right, #8E978D, #97C4AD);
+    background: linear-gradient(to top left, #65977d, #97e5bd);
     width: 100px;
 }
 .medium{
     border-radius: 8px;
     border: 2px;
     padding: 6px;
-    background: linear-gradient(to bottom right, #8E978D, #97C4AD);
+    background: linear-gradient(to top left, #65977d, #97e5bd);
     width: 100px;
 }
 .full{
     border-radius: 8px;
     border: 2px;
     padding: 6px;
-    background: linear-gradient(to bottom right, #8E978D, #97C4AD);
+    background: linear-gradient(to top left, #65977d, #97e5bd);
     width: 100px;
 }
 input[type=number]::-webkit-inner-spin-button { 
@@ -111,12 +111,20 @@ input  {
    width: 90px; 
    height: 30px;
    border-radius: 8px;
-   background: linear-gradient(to right, #8E978D, #97C4AD);
+   background: linear-gradient(to top left, #65977d, #97e5bd);
    border: 1px;
    font-weight: bold;
    margin: 10px 0 0 0;
 }
-
+.adicionar{
+   width: 90px; 
+   height: 30px;
+   border-radius: 8px;
+   background: linear-gradient(to top left, #65977d, #97e5bd);
+   border: 1px;
+   font-weight: bold;
+   margin: 10px 0 0 12px;
+}
 .basic:active{
 background: linear-gradient(to bottom right, #444944, #597265);
 }
@@ -127,5 +135,8 @@ background: linear-gradient(to bottom right, #444944, #597265);
 background: linear-gradient(to bottom right, #444944, #597265);
 }
 .calcular:active{
+background: linear-gradient(to bottom right, #444944, #597265);
+}
+.adicionar:active{
 background: linear-gradient(to bottom right, #444944, #597265);
 }
