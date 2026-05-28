@@ -12,7 +12,7 @@ font-family: 'DM Sans', sans-serif;
     margin: 10px 15px 10px 15px;
 }
 .card {
-    background: linear-gradient(to bottom left, #93979c, #f8f9fa);
+    background: linear-gradient(to bottom left, #aab4a9, #f8f9fa);
     padding: 0px;
     border-radius: 12px;
     display: flex;
@@ -25,7 +25,7 @@ font-family: 'DM Sans', sans-serif;
     align-items: center;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    border:1px solid #8E978D;
+    border:1px solid #727971;
 }
 body {
     display: flex;
@@ -48,7 +48,7 @@ body {
     align-items: center;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-    border:1pX solid #8E978D;
+    border:1pX solid #727971;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -104,7 +104,7 @@ input  {
     height: 22px;
     width: 100%;
     border: #ffffff 3px;
-    background: linear-gradient(to left, #c5cbd1, #f8f9fa) ;
+    background-color: #f8f9fa;
     margin: 10px 0px 4px 0px;
 }
 .calcular{
