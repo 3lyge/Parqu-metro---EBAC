@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="Style.css">
 </head>
     <body>
-        <div class="card1">
+        <div id="card1" class="card1">
 
         </div>
         <div class="card">
             <h1>Parquímetro</h1>
-            <h3 id="Saldo">Saldo total: 0,00 <button class="adicionar" id="adicionar" onclick="adicionar()">Adicionar</button></h3>
+            <h3 id="Saldo">Saldo: R$ 0,00</h3>
+            <button class="btnadicionar" id="btnAdicionar">Adicionar</button>
             <P>Insira o valor para adicionar ao saldo.</P>
-            <P><input id="saldo" type="number" min="0,50" placeholder="  Min: 0,50"></P>
+            <P><input id="iptAdicionar" type="number" min="0,50" placeholder="  Min: 0,50"></P>
             <div id="botoes" class="botoes">
                 <button id="basic" class="basic">
                     <h5 class="plan">Plano Basic</h5>
@@ -23,7 +24,7 @@
                 </button>
                 <button id="medium" class="medium">
                     <h5 class="plan">Plano Medium</h5>
-                <h2>R$ 1.75</h2>
+                <h2>R$ 1,75</h2>
                     <h5>60 minutos</h5>
                 </button>
                 <button id="full" class="full">
@@ -35,7 +36,7 @@
         <label></label>
         <p>Escolha um plano e insira o valor desejado:</p>
         <p><input id="valor" type="number" min="1,00" placeholder="  Ex: 1,00"></p>
-        <p><button class="calcular" onclick="calcular()">Calcular</button></p>
+        <p><button class="calcular">Calcular</button></p>
             </div>
     <script src="Script.js"></script>
 </body>

@@ -48,7 +48,7 @@ body {
     align-items: center;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-    border:1pX solid #727971;
+    border:1px solid #727971;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,9 +66,9 @@ h2{
     padding-bottom: 5px; 
 }
 h3{
-   font-weight: bold;
+    font-weight: bold;
     color: #121212;
-    padding-bottom: 15px;
+    padding-bottom: 4px;
 }
 h5{
    font-weight: bold;
@@ -116,14 +116,14 @@ input  {
    font-weight: bold;
    margin: 10px 0 0 0;
 }
-.adicionar{
+.btnadicionar{
    width: 90px; 
    height: 30px;
    border-radius: 8px;
    background: linear-gradient(to top left, #65977d, #97e5bd);
    border: 1px;
    font-weight: bold;
-   margin: 10px 0 0 12px;
+   margin: 8px 0px 10px 0px
 }
 .basic:active{
 background: linear-gradient(to bottom right, #444944, #597265);
@@ -137,6 +137,6 @@ background: linear-gradient(to bottom right, #444944, #597265);
 .calcular:active{
 background: linear-gradient(to bottom right, #444944, #597265);
 }
-.adicionar:active{
+.btnadicionar:active{
 background: linear-gradient(to bottom right, #444944, #597265);
 }
